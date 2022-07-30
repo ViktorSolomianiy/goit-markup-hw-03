@@ -231,7 +231,7 @@ img {
 }
 
 .about-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -256,8 +256,13 @@ img {
   margin-right: 0;
 }
 
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -267,7 +272,6 @@ img {
 }
 
 .team-title-name {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -278,7 +282,6 @@ img {
 
 .team-text {
   margin-top: 10px;
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -311,9 +314,13 @@ img {
   color: #ffffff;
 }
 
-.footer-link-mail,
-.footer-link-tell {
+.footer-list-mail,
+.footer-list-tell {
   margin-top: 9px;
+}
+
+.footer-link-tell,
+.footer-link-mail {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -364,8 +371,9 @@ img {
 }
 
 .gallery-box {
-  border: 1px solid #eeeeee;
+  padding: 20px 24px;
   width: 370px;
+  border: 1px solid #eeeeee;
 }
 
 .gallery-list {
@@ -388,8 +396,6 @@ img {
 }
 
 .gallery-title {
-  padding-left: 24px;
-  padding-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -398,9 +404,7 @@ img {
 }
 
 .gallery-text {
-  padding-left: 24px;
-  padding-top: 4px;
-  padding-bottom: 20px;
+  margin-top: 4px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
