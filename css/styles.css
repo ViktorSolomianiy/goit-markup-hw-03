@@ -2,6 +2,7 @@
   --main-color: #212121;
   --second-color: #757575;
   --btn-color: #2196f3;
+  --btn-gallery-color: #f5f4fa;
 }
 
 body {
@@ -50,8 +51,8 @@ img {
 }
 
 .section {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container {
@@ -77,7 +78,8 @@ img {
 }
 
 .header {
-  padding: 24px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -141,6 +143,7 @@ img {
 .hero {
   min-height: 600px;
   padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: #2f303a;
 }
@@ -174,9 +177,12 @@ img {
 
 /* <!--Soft Skills--> */
 
+.soft-skills.section {
+  padding-bottom: 47px;
+}
+
 .soft-skills-list {
   display: flex;
-  padding-top: 47px;
 }
 
 .soft-skills-item {
@@ -207,6 +213,10 @@ img {
 
 /* <!--About--> */
 
+.about.section {
+  padding-top: 47px;
+}
+
 .about-list {
   display: flex;
 }
@@ -234,7 +244,6 @@ img {
 
 .team-list {
   display: flex;
-  padding-bottom: 47px;
 }
 
 .team-item {
@@ -280,6 +289,8 @@ img {
 /* <!--Footer--> */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   min-height: 252px;
   background-color: #2f303a;
 }
@@ -289,12 +300,10 @@ img {
 }
 
 .address {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-text {
-  padding-top: 20px;
+  margin-top: 20px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -304,7 +313,7 @@ img {
 
 .footer-link-mail,
 .footer-link-tell {
-  padding-top: 9px;
+  margin-top: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -323,11 +332,6 @@ img {
 }
 
 /* <!-- Gallery --> */
-
-.gallery {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .gallery-item {
   width: 370px;
@@ -355,8 +359,8 @@ img {
   letter-spacing: 0.03em;
   cursor: pointer;
   border: 0;
-  color: #fff;
-  background-color: var(--btn-color);
+  color: var(--main-color);
+  background-color: var(--btn-gallery-color);
 }
 
 .gallery-box {
@@ -367,7 +371,7 @@ img {
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .gallery-list-btn {
